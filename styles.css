@@ -1,0 +1,107 @@
+body {
+    background-color: black; /* Fondo */
+    color: #fff; /* Texto blanco para mayor legibilidad */
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold; /* Hacer la fuente más llamativa */
+    font-size: 1.1em;
+    color: black !important; /* Color del texto del menú con !important para mayor especificidad */
+}
+
+/* 
+    OPCIONES DE COLOR
+    Rojo Oscuro (#8B0000): Un rojo oscuro aporta un contraste fuerte y puede añadir un toque dramático y sofisticado.
+    Verde Esmeralda (#2E8B57): Este tono de verde es calmante y se ve muy bien contra el negro.
+    Púrpura Real (#4B0082): Un púrpura oscuro es elegante y combina bien con el negro, dándole un aspecto lujoso.
+    Azul Medianoche (#191970): Un azul oscuro casi negro que añade profundidad y mantiene la elegancia.
+    Gris Carbón (#36454F): Un gris muy oscuro que se mezcla bien con el negro sin perder el contraste.
+    Dorado (#FFD700): Para un toque más brillante y llamativo, el dorado puede ser una excelente opción, especialmente para botones o acentos.
+    Turquesa Oscuro (#008B8B): Un turquesa oscuro es refrescante y añade un toque moderno al diseño.
+    Burdeos (#800020): Un burdeos profundo puede dar una sensación cálida y acogedora, combinando bien con el negro. 
+    
+*/       
+/* Cambiar el color del texto al pasar el ratón por encima */
+.navbar-nav .nav-link:hover {
+    color: #f0e68c !important; /* Cambia este color por el que prefieras con !important para mayor especificidad */
+}
+
+.custom-navbar {
+    background-color: #8B0000; /* Verde Esmeralda */
+}
+
+footer {
+    background-color: #8B0000; /* Verde Esmeralda */
+    color: #fff; /* Texto blanco para mayor legibilidad */
+    padding: 20px 0;
+}
+.divider-short {
+    border: 0;
+    height: 2px;
+    background-color: #8B0000; 
+    width: 60%; /*  cambiar la longitud de la línea */
+    margin: 40px auto; /* margen superior e inferior */
+}
+
+.featured-img {
+    width: 100%;
+    height: auto;
+}
+
+.lead {
+    font-size: 1.25rem; /* Tamaño de fuente mayor para el texto */
+    line-height: 1.5; /* Espaciado de línea para mejor legibilidad */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+h2 {
+    text-align: left; /* Alineación del título a la izquierda */
+}
+
+.hero {
+    background: url('path/to/hero-image.jpg') no-repeat center center/cover;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.row > .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el título de la sección de contacto */
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10m;
+    text-align: center; /* Centra el título */
+    color: #f0a500;
+}
+
+/* Estilo para el icono al lado del título */
+#contact h2 i {
+    margin-right: 0px; /* Ajusta el margen para que el icono esté a la izquierda */
+    position: calc();
+}
+
+/* Estilo para los campos de formulario */
+.email-field, .discord-field {
+    background-color: #f0a500 !important; /* Color de fondo similar al naranjado */
+    color: black;
+}
+
+
